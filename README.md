@@ -5,26 +5,25 @@
     // Format of JSON request
 
     {
-        guesses: [
-            {
-                word: 'RAISE',
-                matches: [
-                    0,
-                    2,
-                    0,
-                    0,
-                    0
-                ]
+        guesses: [{
+            word: 'RAISE',
+            matches: [
+                0,
+                2,
+                0,
+                0,
+                0
+            ]
             },
             {
-                word: 'TANGO',
-                matches: [
-                    0,
-                    2,
-                    0,
-                    0,
-                    0
-                ]
+            word: 'TANGO',
+            matches: [
+                0,
+                2,
+                0,
+                0,
+                0
+            ]
             }
         ]
     }
@@ -32,70 +31,41 @@
 ## Response Format
 
     {
-        "filteredWordsAllowedCount": 31,
-        "filteredWordsOfficialCount": 13,
+        "filteredWordsAllowedCount": 9,
+        "filteredWordsOfficialCount": 1,
         "suggestionsAllowed": [{
-            "word": "quist",
-            "score": 289
+            "word": "feese",
+            "score": 14.875
         }, {
-            "word": "quits",
-            "score": 289
+            "word": "leese",
+            "score": 14.75
         }, {
-            "word": "quins",
-            "score": 287
+            "word": "fesse",
+            "score": 11.5
         }, {
-            "word": "suint",
-            "score": 287
+            "word": "cesse",
+            "score": 11.375
         }, {
-            "word": "units",
-            "score": 287
+            "word": "desse",
+            "score": 11.375
         }, {
-            "word": "muist",
-            "score": 286
+            "word": "gesse",
+            "score": 11.375
         }, {
-            "word": "quims",
-            "score": 286
+            "word": "jesse",
+            "score": 11.375
         }, {
-            "word": "tuism",
-            "score": 286
+            "word": "peyse",
+            "score": 10.5
         }, {
-            "word": "quino",
-            "score": 284
-        }, {
-            "word": "cuits",
-            "score": 283
+            "word": "temse",
+            "score": 10.375
         }],
         "suggestionsOfficial": [{
-            "word": "unity",
-            "score": 119
-        }, {
-            "word": "quilt",
-            "score": 116
-        }, {
-            "word": "unify",
-            "score": 116
-        }, {
-            "word": "guilt",
-            "score": 115
-        }, {
-            "word": "opium",
-            "score": 114
-        }, {
-            "word": "using",
-            "score": 114
-        }, {
-            "word": "suing",
-            "score": 114
-        }, {
-            "word": "juicy",
-            "score": 113
-        }, {
-            "word": "built",
-            "score": 113
-        }, {
-            "word": "quick",
-            "score": 112
-        }]
+            "word": "geese",
+            "score": 1.75
+        }],
+        "letterStatuses": [0, -1, -1, -1, 2, -1, -1, 0, 0, -1, -1, -1, -1, 0, 0, -1, -1, 0, 2, -1, 0, -1, -1, -1, -1, -1]
     }
 
 ## Sample curl
