@@ -97,3 +97,13 @@
             "score": 112
         }]
     }
+
+## Sample curl
+
+### localhost:3000
+
+    curl 'http://localhost:3000/wordle' -X POST -H 'Accept: application/json' -H 'Content-Type: application/json; charset=UTF-8' --data-raw '{"guesses":[{"word":"raise","matches":[0,0,0,2,2]}, {"word":"house","matches":[0,0,0,2,2]}, {"word":"sense","matches":[1,2,0,2,2]}]}'
+
+### heroku
+
+    curl 'https://jackace-wordle-solver.herokuapp.com/wordle' -X POST -H 'Accept: application/json' -H 'Content-Type: application/json; charset=UTF-8' --data-raw '{"guesses":[{"word":"raise","matches":[0,0,0,2,2]}, {"word":"house","matches":[0,0,0,2,2]}, {"word":"sense","matches":[1,2,0,2,2]}]}'
