@@ -2,6 +2,8 @@
 
 Test the UI for this service on [jackace.com](https://www.jackace.com/games/wordle/solver/).
 
+![Screenshot of UI](doc/img/00-screenshot-ui-800x661.png)
+
 ## Request Format
 
     // Format of JSON request
