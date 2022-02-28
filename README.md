@@ -1,5 +1,7 @@
 # WORDLE SOLVER - node.js
 
+Test the UI for this service on [jackace.com](https://www.jackace.com/games/wordle/solver/).
+
 ## Request Format
 
     // Format of JSON request
